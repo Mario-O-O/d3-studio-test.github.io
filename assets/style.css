@@ -1255,6 +1255,18 @@ section.cierre {
   color: var(--color-d);
 }
 
+.tablinks.active .ico-casa g#casa-grisCla path {
+  fill: #6BC9B9;
+}
+
+.tablinks.active .ico-casa g#casa-grisOsc path {
+  fill: #7CEDDC;
+}
+
+.tablinks.active .ico-casa g#casa-grisOsc2 path {
+  fill: #404551;
+}
+
 .tablinks:hover .tab-TT{
   color: var(--color-d);
 }
