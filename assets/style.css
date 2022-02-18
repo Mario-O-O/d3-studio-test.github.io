@@ -1235,12 +1235,19 @@ section.cierre {
 /* END PROYECTOS */
 
 /* SERVICIOS */
+h2.TT-servicios {
+  text-align: center;
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom: 45px;
+}
+
 .tablinks {
   cursor: pointer;
   background: #EBECF1;
   border-radius: 15px;
-  padding: 7px 17px;
-  margin: 0 12px;
+  padding: 10px 15px;
+  margin: 0px 23px;
 }
 
 .tablinks.active {
@@ -1285,7 +1292,7 @@ section.cierre {
 }
 
 .ico-casa {
-  width: 25px;
+  width: 18px;
   pointer-events: none;
 }
 /* End SERVICIOS */
