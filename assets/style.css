@@ -1795,6 +1795,10 @@ body.darkMode  .TTProyects{
 body.darkMode g#Grupo_3394 path {
   fill: #30333B;
 }
+
+body.darkMode  .tablinks {
+  background: #292E35;
+}
 /*-----------------------------------
 1.6 End DarkMode
 -----------------------------------*/
