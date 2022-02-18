@@ -20,7 +20,7 @@ body{
   background: #F5F5F5;
 }
 
-.menu, .cont_menu ul li a, .cont_dTres *, .cont_dTres, .dTres_txt, .cont_menu, body, .switch, .switchDarkLight, .dot, .slider_btn, .servMas, .servTxt h3, .letra img, .verPro, .dkm, .servMas h5, .dTres::after, .servImg img, .servImg, body.darkMode #mensaje::placeholder, body.darkMode #mensaje, body.darkMode .contInputs input::placeholder, body.darkMode .contInputs input, body.darkMode .fonmContacto input[type="button"], g#studio path, g#studio g path, g#studio rect, .contLegal, .contFoot, .menuDesk, .menuMobile, .lineMneu, g#Grupo_3394 path, .TTProyects, .redes img, #locales, .tablinks, .tablinks.active .ico-casa g#casa-grisCla path, .tablinks.active .ico-casa g#casa-grisOsc path, .tablinks.active .ico-casa g#casa-grisOsc2 path, .tab-TT {
+.menu, .cont_menu ul li a, .cont_dTres *, .cont_dTres, .dTres_txt, .cont_menu, body, .switch, .switchDarkLight, .dot, .slider_btn, .servMas, .servTxt h3, .letra img, .verPro, .dkm, .servMas h5, .dTres::after, .servImg img, .servImg, body.darkMode #mensaje::placeholder, body.darkMode #mensaje, body.darkMode .contInputs input::placeholder, body.darkMode .contInputs input, body.darkMode .fonmContacto input[type="button"], g#studio path, g#studio g path, g#studio rect, .contLegal, .contFoot, .menuDesk, .menuMobile, .lineMneu, g#Grupo_3394 path, .TTProyects, .redes img, #locales, .tablinks, .ico-casa g#casa-grisCla path, .ico-casa g#casa-grisOsc path, .ico-casa g#casa-grisOsc2 path, .tab-TT {
   transition: all 0.5s ease-in-out;
 }
 
