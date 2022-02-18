@@ -1251,6 +1251,10 @@ section.cierre {
   background: #FFFFFF;
 }
 
+.tablinks.active:hover {
+  background: var(--color-d);
+}
+
 .tabcontent {
   display: none;
 }
