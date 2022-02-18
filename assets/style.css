@@ -1642,6 +1642,19 @@ section.cierre {
     width: 135px;
     height: 135px;
   }
+
+  .switchDK{
+    top: 10px;
+    left: 10px;
+    height: 45px;
+    width: 45px;
+  }
+
+  .close {
+    top: 9px;
+    right: 22px;
+    font-size: 40px;
+  }
   /* End Proyectos */
 
   body.darkMode .menuDesk {
