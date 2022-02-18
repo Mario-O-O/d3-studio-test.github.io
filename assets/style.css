@@ -1250,7 +1250,7 @@ h2.TT-servicios {
   margin: 0px 23px;
 }
 
-.tablinks.active {
+body div.tablinks.active {
   background: var(--color-d);
 }
 
