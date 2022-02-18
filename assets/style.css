@@ -1594,6 +1594,11 @@ body div.tablinks.active {
   .proTxt2 p {
     margin-bottom: 25px;
   }
+
+  .verPro {
+    display: table;
+    margin: 0 auto;
+  }
   /* End proyectos */
 
   /* galeria */
