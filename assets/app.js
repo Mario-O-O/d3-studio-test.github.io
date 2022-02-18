@@ -20,7 +20,7 @@ function navMenu(linea, classLi) {
   recLeftBottom();
 
   switch (URLactual.pathname) {
-    case '/index.html':
+    case '/d3-studio-test.github.io/index.html':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[0].classList.add("active");
       recLeftBottom();
@@ -30,12 +30,12 @@ function navMenu(linea, classLi) {
       $aTarget[1].classList.add("active");
       recLeftBottom();
       break;
-    case '/proyectos.html':
+    case '/d3-studio-test.github.io/proyectos.html':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[2].classList.add("active");
       recLeftBottom();
       break;
-    case '/contacto.html':
+    case '/d3-studio-test.github.io/contacto.html':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[3].classList.add("active");
       recLeftBottom();
