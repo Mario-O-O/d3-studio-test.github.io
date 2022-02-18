@@ -1303,6 +1303,10 @@ body div.tablinks.active {
 -----------------------------------*/
 
 @media (max-width:768px) {
+  *{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
   .menuOn {
     --ancho-dTres: 35px;
   }
