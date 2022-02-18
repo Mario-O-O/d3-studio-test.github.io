@@ -1644,16 +1644,16 @@ section.cierre {
   }
 
   .switchDK{
-    top: 10px;
-    left: 10px;
-    height: 45px;
-    width: 45px;
+    top: 15px;
+    right: 55px;
+    height: 42px;
+    width: 42px;
   }
 
   .close {
     top: 9px;
     right: 22px;
-    font-size: 40px;
+    font-size: 43px;
   }
   /* End Proyectos */
 
