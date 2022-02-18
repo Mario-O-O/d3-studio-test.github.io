@@ -25,7 +25,7 @@ function navMenu(linea, classLi) {
       $aTarget[0].classList.add("active");
       recLeftBottom();
       break;
-    case '/servicios.html':
+    case '/d3-studio-test.github.io/servicios.html':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[1].classList.add("active");
       recLeftBottom();
