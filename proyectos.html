@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:image" content="https://developer.mozilla.org/static/img/opengraph-logo.png">
+  <meta property="og:description" content="The Mozilla Developer Network (MDN) proporciona información sobre tecnologías Open Web, incluidas HTML, CSS y APIs para ambos sitios web y aplicaciones HTML5. También documenta productos Mozilla, como el sistema operativo Firefox.">
+  <meta property="og:title" content="Mozilla Developer Network">
+
+  <title>D3 proyectos</title>
+  <script src="assets/include.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="shortcut icon" href="images/favicom-2.ico" type="image/x-icon">
+</head>
+<body>
+
+  <div data-include="assets/header.html"></div>
+
+  <main class="container">
+    <section class="wrap">
+      <h5 class="TTProyects">Proyectos</h5>
+
+      <artice class="dFlx jSpcB contInfoLocal">
+          <!-- <h2></h2> -->
+          <div class="map">
+            <div class="btnOjos"></div>
+            <div class="mapa"></div>
+          </div>
+          
+          <div class="infoLocal">
+            <div class="selecyArrow">
+              <select name="locales" id="locales" class="crud-table"></select>
+            </div>
+            <div class="contimgLocal">
+              <img src="" alt="" class="imgLocal">
+            </div>
+            <h2 class="nombreLocal"></h2>
+            <p class="parrafo"></p>
+          </div>
+      </artice>
+
+      <article class="galeriaProyects">
+        
+        <div class="galeria dFlx"></div>
+
+        <div id="myModal" class="modal">
+          <div class="bgBlack" onclick="closeModal()"></div>
+          <div class="close" onclick="closeModal()">&times;</div>
+          <div class="switchDK sun"></div>
+          <div class="modalGaleria"></div>
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </article>
+        
+    <!-- template -->
+    <template id="crud-template">
+        <option class="name"></option>
+    </template>
+    </section>
+  </main>
+
+  <div data-include="assets/footer.html"></div>
+  
+  <script src="assets/include-proyects.js"></script>
+  <script src="assets/lightBox.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
