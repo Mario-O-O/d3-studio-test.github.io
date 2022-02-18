@@ -28,7 +28,7 @@ const ajax = function (options) {
 const getAll = function () {
   ajax({
     method: "GET",
-    url: "https://raw.githubusercontent.com/Mario-O-O/d3-studio-test.github.io/master/assets/db-locales.json",
+    url: "http://localhost:3000/locales",
     success: function (res) {
       res.forEach((el) => {
         $template.querySelector(".name").textContent = el.nombre;
