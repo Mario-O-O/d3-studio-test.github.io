@@ -318,3 +318,12 @@ w.addEventListener('load', (e) =>{
 w.addEventListener('resize', function(e) { munuHamburguesa(); });
 
 // tamaño imagen pixel perfect 0,985
+
+// LOAD
+window.onload = function(){
+  let $load = d.querySelector(".load");
+  let $load2 = d.querySelector(".load-2");
+  setTimeout(() => { $load.classList.add("loadOff"); }, 400);
+  setTimeout(() => { $load2.classList.add("loadOff"); }, 500);
+}
+// FIN LOAD

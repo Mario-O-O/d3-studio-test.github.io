@@ -166,6 +166,25 @@ p{
 1.5 Contenido
 -----------------------------------*/
 
+.load, .load-2 {
+  background: #292E35;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 1s;
+}
+
+.load-2 {
+  background: #7CEDDC;
+}
+
+.loadOff {
+  left: -100vw;
+}
+
 img.blur2-1, img.blur2-2 {
   position: absolute;
   pointer-events: none;
