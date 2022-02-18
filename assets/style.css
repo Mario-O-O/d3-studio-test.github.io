@@ -635,6 +635,15 @@ body a.servMas h5{
 .servOdd .servMas {
   justify-content: end;
 }
+
+.tab-TT {
+  pointer-events: none;
+}
+
+.ico-casa {
+  width: 25px;
+  pointer-events: none;
+}
 /* End servicios */
 
 /* proyectos */
