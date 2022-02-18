@@ -1537,6 +1537,7 @@ body div.tablinks.active {
     flex-direction: column;
     margin: 0px 14px;
     margin-bottom: 16px;
+    max-width: 130px;
   }
 
   .tab-TT {
