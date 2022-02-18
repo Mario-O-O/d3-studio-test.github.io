@@ -1,5 +1,4 @@
-{
-  "locales": [
+ [
     {
       "id": 1,
       "nombre": "Local 1",
@@ -28,4 +27,3 @@
       "galeriaProyectDK": ["../images/galeria/imgDK-3-1.jpg", "../images/galeria/imgDK-3-2.jpg", "../images/galeria/imgDK-3-3.jpg", "../images/galeria/imgDK-3-4.jpg"]
     }
   ]
-}
