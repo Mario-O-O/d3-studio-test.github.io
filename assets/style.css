@@ -1264,6 +1264,7 @@ body div.tablinks.active {
 
 .tabcontent {
   display: none;
+  margin-top: 55px;
 }
 
 .tabcontent.ver {
@@ -1527,6 +1528,26 @@ body div.tablinks.active {
   .lineServ {
     width: 35px;
   }
+
+  .tab {
+    flex-wrap: wrap;
+  }
+
+  .tablinks {
+    flex-direction: column;
+    margin: 0px 14px;
+    margin-bottom: 16px;
+  }
+
+  .tab-TT {
+    margin-left: 0;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .ico-casa {
+    width: 25px;
+/* } */
   /* End servicios */
 
   /* proyectos */
