@@ -635,15 +635,6 @@ body a.servMas h5{
 .servOdd .servMas {
   justify-content: end;
 }
-
-.tab-TT {
-  pointer-events: none;
-}
-
-.ico-casa {
-  width: 25px;
-  pointer-events: none;
-}
 /* End servicios */
 
 /* proyectos */
@@ -1248,20 +1239,29 @@ section.cierre {
   cursor: pointer;
 }
 
-.tablinks:hover {
-  color: var(--color-d);
-}
-
-.tablinks.active {
-  color: var(--color-d);
-}
-
 .tabcontent {
   display: none;
 }
 
 .tabcontent.ver {
   display: block;
+}
+
+.tab-TT {
+  pointer-events: none;
+}
+
+.tablinks.active  .tab-TT{
+  color: var(--color-d);
+}
+
+.tablinks:hover .tab-TT{
+  color: var(--color-d);
+}
+
+.ico-casa {
+  width: 25px;
+  pointer-events: none;
 }
 /* End SERVICIOS */
 
