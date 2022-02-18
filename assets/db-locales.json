@@ -47,5 +47,22 @@
         "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-2.jpg", 
         "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-3.jpg", 
         "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-4.jpg"]
+    },
+    {
+      "id": 4,
+      "nombre": "Local 4",
+      "value": "value4",
+      "parrafo": "Lorem ipsum dolor 4",
+      "imgPrincipal": "https://mario-o-o.github.io/d3-studio-test.github.io/images/img-proyect-3.jpg",
+      "galeriaProyect": [
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/img-3-1.jpg", 
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/img-3-2.jpg", 
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/img-3-3.jpg", 
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/img-3-4.jpg"],
+      "galeriaProyectDK": [
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-1.jpg", 
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-2.jpg", 
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-3.jpg", 
+        "https://mario-o-o.github.io/d3-studio-test.github.io/images/galeria/imgDK-3-4.jpg"]
     }
   ]
