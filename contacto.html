@@ -19,7 +19,7 @@
   <div class="load dFlx aCntr jCntr">
     <img src="images/logo-cargador.svg" alt="" class="logo-cargador">
   </div>
-  
+
   <div class="leave-2"></div>
   <div class="leave dFlx aCntr jCntr">
     <img src="images/logo-cargador.svg" alt="" class="logo-cargador">
@@ -28,8 +28,38 @@
   <div data-include="assets/header.html"></div>
 
   <main class="container">
-    <section class="wrap">
-      <h1>Conatcto</h1>
+    <section id="contacto" class="contacto wrap dFlx">
+      <div>
+        <img src="images/imgPrueba.jpg" alt="" class="imgContact">
+        <img src="images/imgPrueba.jpg" alt="" class="imgContactM">
+      </div>
+
+      <div>
+        <h1>Contacto</h1>
+        <p class="txtContacto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut perspiciatis illum natus!</p>
+        <form action="" class="fonmContacto">
+          <div class="dFlx jSpcB contInputs">
+            <input type="text" name="" id="" placeholder="Nombre">
+            <input type="email" name="" id="" placeholder="Correo">
+          </div>
+
+          <div class="dFlx jSpcB contInputs">
+            <input type="tel" name="" id="" placeholder="Teléfono">
+            <input type="text" name="" id="" placeholder="Asunto">
+          </div>
+          <textarea id="mensaje" name="comments" cols="50" rows="5" placeholder="Mensaje" data-pattern="^.{1,255}$" title="Tu comentario no debe exeder los 255 caracteres" required></textarea>
+
+          <input type="button" value="Enviar">
+        </form>
+
+        <div class="tel">
+          <p class="teltxt">Lorem ipsum <span class="blckClr">dolor, sit amet.</span></p>
+
+          <a href="" class="txtInfo"><span class="blckClr">Teléfono:</span> 6893338</a>
+          <a href="" class="txtInfo"><span class="blckClr">Celular:</span> 311 442 38 78</a>
+          <div class="txtInfo"><span class="blckClr">Dirección:</span> Cll 138b # 127 -07 - Edifico mandalay</div>
+        </div>
+      </div>
     </section>
   </main>
 
