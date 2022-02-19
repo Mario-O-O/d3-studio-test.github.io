@@ -199,6 +199,10 @@ p{
   left: -100vw;
 }
 
+.logo-cargador{
+  width: 100px;
+}
+
 img.blur2-1, img.blur2-2 {
   position: absolute;
   pointer-events: none;
