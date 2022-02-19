@@ -603,11 +603,6 @@ p.parrSlide {
 
 .servImg{
   position: relative;
-  box-shadow: 0 0 0 0px #7CEDDC;
-}
-
-.servImg:hover{
-  box-shadow: 0 0 0 1px #7CEDDC;
 }
 
 .servImg img{
