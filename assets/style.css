@@ -1313,6 +1313,7 @@ body div.tablinks.active {
 .tab-TT {
   pointer-events: none;
   margin-left: 8px;
+  color: #B3B7CC;
 }
 
 .tablinks.active  .tab-TT{
@@ -1946,6 +1947,10 @@ body.darkMode .switch {
 
 body.darkMode h1, body.darkMode h2, body.darkMode h3, body.darkMode h4, body.darkMode h5, body.darkMode h6, body.darkMode .cont_menu ul li a, body.darkMode .fonmContacto input[type="button"] {
   color: #ffffff;
+}
+
+body.darkMode h5.tab-TT {
+  color: #616573;
 }
 
 body.darkMode .btn-video{
