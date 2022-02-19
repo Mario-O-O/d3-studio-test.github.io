@@ -1925,6 +1925,20 @@ div.modal-bgOff .contenido-modal{
     width: 85px;
     height: 85px;
   }
+
+  .tablinks {
+    margin: 0px 7px;
+    margin-bottom: 15px;
+    max-width: 94px;
+  }
+
+  .ico-casa {
+    width: 20px;
+  }
+
+  .tab-TT {
+    font-size: 12px;
+  }
 }
 
 @media (max-width:1920px) {}
