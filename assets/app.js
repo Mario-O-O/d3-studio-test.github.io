@@ -70,7 +70,7 @@ function navMenu(linea, classLi) {
         setTimeout(() => { $leave2.classList.add("leaveOn"); }, 400);
         setTimeout(() => { $leave.classList.add("leaveOn"); }, 500);
 
-        // setTimeout(()=> location.href = e.target.getAttribute("href"),2000);
+        setTimeout(()=> location.href = e.target.getAttribute("href"),2000);
       }
   });
   
