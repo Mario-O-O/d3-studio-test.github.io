@@ -9,6 +9,9 @@ function navMenu(linea, classLi) {
 
   let URLactual = window.location;
 
+  let $leave = d.querySelector(".leave");
+  let $leave2 = d.querySelector(".leave-2");
+
   const recLeftBottom = function() {        
       let $active = d.querySelector(".active"),
       recLeft = $active.getBoundingClientRect().left,
@@ -61,7 +64,13 @@ function navMenu(linea, classLi) {
       });
 
       if (e.target.matches(".cont_menu ul li a")) {
-          recLeftBottom();
+        recLeftBottom();
+        e.preventDefault();
+        
+        setTimeout(() => { $leave2.classList.add("leaveOn"); }, 400);
+        setTimeout(() => { $leave.classList.add("leaveOn"); }, 500);
+
+        setTimeout(()=> location.href = e.target.getAttribute("href"),1500);
       }
   });
   
