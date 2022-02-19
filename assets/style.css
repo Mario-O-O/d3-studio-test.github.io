@@ -1303,11 +1303,11 @@ body div.tablinks.active {
 
 .tabcontent {
   display: none;
-  margin-top: 55px;
+  margin-top: 75px;
 }
 
 .tabcontent.ver {
-  display: block;
+  display: flex;
 }
 
 .tab-TT {
@@ -1335,6 +1335,124 @@ body div.tablinks.active {
   width: 18px;
   pointer-events: none;
 }
+
+.tabcontent img {
+  width: 285px;
+  margin: 0 auto;
+}
+
+.img-ser-Mobile{
+  display: none;
+}
+
+.contenedor-infoServicios {
+  padding-top: 46px;
+  padding-left: 37px;
+}
+
+.contenedor-infoServicios h3.shadowTxt {
+  margin-bottom: 22px;
+}
+
+.contenedor-infoServicios p {
+  margin-bottom: 23px;
+}
+
+.btn-video{
+  margin-top: 45px;
+  display: table;
+  margin-left: auto;
+}
+
+/* modales */
+.init-modal {
+  background: rgb(0 0 0 / 60%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  transition: all .15s linear;
+  opacity: 0;
+  visibility: hidden;
+}
+.cont-modal-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.contenido-modal {
+  position: relative;
+  background-color: #fff;
+  max-width: 80%;
+  transform: translateY(-100px);
+  transition: all 1s linear;
+  max-height: 80%;
+  width: 80%;
+  height: 80%;
+}
+
+div.modal-bgOn{
+  opacity: 1;
+  visibility: visible;
+  transition: all .15s linear;
+}
+
+div.modal-bgOff{
+  opacity: 0;
+  visibility: hidden;
+  transition: all .15s linear;
+}
+
+div.modal-bgOn .contenido-modal{
+  transform: translateY(0);
+  transition: all 0.5s linear;
+}
+
+div.modal-bgOff .contenido-modal{
+  transform: translateY(-100px);
+  transition: all .15s linear;
+}
+
+.close-x {
+  background: #C30F10;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  transform: rotate(45deg);
+  box-shadow: 3px 3px 9px 0px rgb(195 15 16 / 32%);
+  transition: all 0.6s;
+}
+
+.line-x1, .line-x2 {
+  pointer-events: none;
+  background: #ffffff;
+  height: 13px;
+  width: 2px;
+}
+
+.line-x1 {
+  transform: translateX(1px);
+}
+
+.line-x2 {
+  transform: rotate(90deg) translateY(1px);
+}
+
+.btn-modal-open{
+  cursor: pointer;
+}
+/* modales */
 /* End SERVICIOS */
 
 /*-----------------------------------
@@ -1767,6 +1885,34 @@ body div.tablinks.active {
     font-size: 43px;
   }
   /* End Proyectos */
+
+  /* Servicios */
+  .tabcontent {
+    flex-direction: column;
+  }
+
+  .img-ser-Mobile{
+    display: block;
+  }
+
+  .img-ser-desk{
+    display: none;
+  }
+
+  .tabcontent {
+    margin-top: 45px;
+  }
+
+  .contenedor-infoServicios {
+    padding-top: 36px;
+    padding-left: 0;
+  }
+
+  .tabcontent img {
+    width: auto;
+    margin: initial;
+  }
+  /* End Servicios */
 
   body.darkMode .menuDesk {
     background: #222325;

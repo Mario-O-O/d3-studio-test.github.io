@@ -295,6 +295,38 @@ function tabsBeneficios(btnTabs, tabs) {
 }
 // FIN TABS SERVICIOS
 
+
+// MODALES SERVICIOS
+function modalUp() {
+
+  let $initModal = document.querySelectorAll('.init-modal[data-modal]');
+
+  $initModal.forEach((el, i) => {
+
+    let $contModalAll = document.querySelectorAll('.cont-modal-all');
+    let $closeX = document.querySelectorAll('.close-x');
+
+    document.addEventListener("click", function(e) {
+      
+      if (e.target.dataset.modal === $initModal[i].dataset.modal) {
+        e.preventDefault();
+        $initModal[i].classList.add("modal-bgOn");
+        $initModal[i].classList.remove("modal-bgOff");
+      }
+
+      if(e.target === $contModalAll[i] || e.target === $closeX[i]){
+        e.preventDefault();
+        $initModal[i].classList.remove("modal-bgOn");
+        $initModal[i].classList.add("modal-bgOff");
+      }
+
+    });
+
+  });
+
+}
+// FIN MODALES SERVICIOS
+
 // INSERTAR SVG
 function svgInner(clase, txt) { let $svg = d.querySelectorAll(clase); $svg.forEach(e => { e.innerHTML = txt }); }
 // FIN INSERTAR SVG
@@ -311,6 +343,7 @@ w.addEventListener('load', (e) =>{
     
     if (d.getElementById('servicios')) {
       tabsBeneficios(".tablinks", ".tabcontent");
+      modalUp();
     }
 
     navMenu(".linea_menu",".cont_menu ul li a");
