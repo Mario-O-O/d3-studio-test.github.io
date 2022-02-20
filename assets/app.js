@@ -203,13 +203,15 @@ function slide() {
 
   const playSlide = function() {
     myTimer = setInterval(stopInterval, 5000);
-    btnPuse.innerHTML = "Pausa";
+    btnPuse.classList.add("pausa");
+    btnPuse.classList.remove("play");
     onOffSlide = false;
   }
   
   const pausaSlide = function() {
     clearInterval(myTimer);
-    btnPuse.innerHTML = "Play";
+    btnPuse.classList.add("play");
+    btnPuse.classList.remove("pausa");
     onOffSlide = true;
   }
 
