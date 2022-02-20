@@ -1748,6 +1748,14 @@ div.modal-bgOff .contenido-modal{
     width: 45px;
   }
 
+  .slider_btn .prev:hover, .slider_btn .next:hover, .pauseBtn:hover {
+    background: rgb(33 35 37 / 20%);
+  }
+
+  .slider_btn .prev:active, .slider_btn .next:active, .pauseBtn:active {
+    background: var(--color-d);
+  }
+
   .pauseBtn {
     margin: 0 15px;
   }
