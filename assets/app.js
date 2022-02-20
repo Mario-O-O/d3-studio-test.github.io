@@ -199,10 +199,10 @@ function slide() {
   dot[0].classList.add("active");
 
   function stopInterval() {$nextBtn.click();}
-  let myTimer = setInterval(stopInterval, 5000);
+  let myTimer = setInterval(stopInterval, 9000);
 
   const playSlide = function() {
-    myTimer = setInterval(stopInterval, 5000);
+    myTimer = setInterval(stopInterval, 9000);
     btnPuse.classList.add("pausa");
     btnPuse.classList.remove("play");
     onOffSlide = false;
