@@ -1737,6 +1737,51 @@ div.modal-bgOff .contenido-modal{
 
   .slider_btn {
     opacity: 1;
+    bottom: 41px;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .slider_btn .prev, .slider_btn .next, .pauseBtn  {
+    height: 45px;
+    width: 45px;
+  }
+
+  .pauseBtn {
+    margin: 0 15px;
+  }
+
+  .slider_btn .next::after, .slider_btn .next::before, .slider_btn .prev::after, .slider_btn .prev::before, .slider_btn .pausa::after, .slider_btn .pausa::before, .slider_btn .play::after {
+    top: 16px;
+  }
+
+  .slider_btn .next::before{
+    left: 23px;
+  }
+
+  .slider_btn .next::after {
+    left: 17px;
+  }
+
+  .slider_btn .prev::before{
+    left: 21px;
+  }
+
+  .slider_btn .prev::after{
+    left: 15px;
+  }
+
+  .slider_btn .pausa::before {
+    left: 25px;
+  }
+
+  .slider_btn .pausa::after{
+    left: 17px;
+  }
+
+  .slider_btn .play::after{
+    left: 20px;
   }
   /* End slider */
 
