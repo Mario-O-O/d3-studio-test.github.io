@@ -1783,6 +1783,39 @@ div.modal-bgOff .contenido-modal{
   .slider_btn .play::after{
     left: 20px;
   }
+
+  .slide {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide>img.slideBG-mobile{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: auto;
+  }
+
+  .div-X{
+    display: none;
+  }
+
+  .slide>div {
+    width: 80%;
+    z-index: 1;
+  }
+
+  p.subTTslide {
+    font-size: 18px;
+  }
+
+  .contSubTT {
+    margin-top: 150px;
+  }
+
+  p.parrSlide {
+    max-width: initial;
+  }
   /* End slider */
 
   /* servicios */
@@ -2087,6 +2120,14 @@ div.modal-bgOff .contenido-modal{
 
   .tab-TT {
     font-size: 12px;
+  }
+
+  h1.TTslidee {
+    margin-top: 0px;
+  }
+
+  .contSubTT {
+    margin-top: 0px;
   }
 }
 
