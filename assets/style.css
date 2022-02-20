@@ -570,7 +570,7 @@ nav.menu .cont_menu ul li a.active{
 .slider_btn .pausa::after{
   content: '';
   position: absolute;
-  left: 11px;
+  left: 12px;
   top: 11px;
   width: 4px;
   height: 13px;
