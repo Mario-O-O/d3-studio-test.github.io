@@ -1803,6 +1803,7 @@ div.modal-bgOff .contenido-modal{
   .slide>div {
     width: 80%;
     z-index: 1;
+    display: none;
   }
 
   p.subTTslide {
