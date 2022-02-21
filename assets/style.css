@@ -571,7 +571,7 @@ nav.menu .cont_menu ul li a.active{
   content: '';
   position: absolute;
   left: 12px;
-  top: 12px;
+  top: 11px;
   width: 4px;
   height: 13px;
   background: #F6F6F6;
@@ -581,7 +581,7 @@ nav.menu .cont_menu ul li a.active{
   content: '';
   position: absolute;
   left: 19px;
-  top: 12px;
+  top: 11px;
   width: 4px;
   height: 13px;
   background: #F6F6F6;
