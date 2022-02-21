@@ -466,7 +466,7 @@ nav.menu .cont_menu ul li a.active{
   padding: 0;
   height: 35px;
   width: 35px;
-  border-radius: 13px;
+  border-radius: 10px;
   background: rgb(33 35 37 / 20%);
   display: flex;
   align-items: center;
@@ -497,6 +497,7 @@ nav.menu .cont_menu ul li a.active{
 .slider_btn .next, .slider_btn .prev, .pauseBtn{
   position: relative;
   cursor: pointer;
+  border-radius: 13px;
 }
 
 .pauseBtn{
