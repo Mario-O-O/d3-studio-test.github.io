@@ -497,7 +497,6 @@ nav.menu .cont_menu ul li a.active{
 .slider_btn .next, .slider_btn .prev, .pauseBtn{
   position: relative;
   cursor: pointer;
-  border-radius: 13px;
 }
 
 .pauseBtn{
@@ -1747,6 +1746,7 @@ div.modal-bgOff .contenido-modal{
   .slider_btn .prev, .slider_btn .next, .pauseBtn  {
     height: 45px;
     width: 45px;
+    border-radius: 13px;
   }
 
   .slider_btn .prev:hover, .slider_btn .next:hover, .pauseBtn:hover {
