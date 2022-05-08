@@ -422,11 +422,11 @@ nav.menu .cont_menu ul li a.active{
   pointer-events: auto;
 }
 
-.slide>div {
+#slider1 .slide>div {
   width: 44%;
 }
 
-.slide>img {
+#slider1 .slide>img {
   display: none;
 }
 
@@ -896,68 +896,40 @@ section.galeria {
   overflow: hidden;
 }
 
-.contImg{
-  display: grid;
-  align-items: start;
-  grid-template-columns: 185px 185px 185px 185px 185px 185px 185px 185px;
-  /* grid-template-columns: 111px 111px 111px 111px 111px 111px 111px 111px; */
-  grid-column-gap: 20px;
-  /* grid-column-gap: 13px; */
-}
-
 .imgCont{
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   border-radius: 7px;
-  height: 185px;
-  width: 185px;
-  /* height: 111px;
-  width:  111px; */
-  /* background: #222325; */
+  height: auto;
+  width: 31%;
+  margin: 10px;
+}
+
+.imgCont2{
+  width: 66%;
 }
 
 .dkm{
   background: #222325;
 }
 
-.row2 {
-  margin-top: 20px;
-  /* margin-top: 13px; */
+#slider2,  #slider3{
+  max-width: initial;
+  height: 185px;
 }
 
-.item3{
-  grid-column: 3 / 5;
-  width: 100%;
+#slider2 .slides, #slider3 .slides{
+  pointer-events: none;
 }
 
-.item4 {
-  grid-column: 5 / 7;
-  width: 100%;
+#slider2:hover .slider_btn, #slider3:hover .slider_btn {
+  opacity: 1;
 }
 
-.item7 {
-  grid-column: 1 / 3;
-  width: 100%;
-}
-
-.item9 {
-  grid-column: 4 / 6;
-  width: 100%;
-}
-
-.item11 {
-  grid-column: 7 / 9;
-  width: 100%;
-}
-
-.row1 {
-  transform: translateX(-80px);
-}
-
-.row2 {
-  transform: translateX(-80px);
+#slider2 .slide, #slider3 .slide{
+  display: flex;
 }
 /* End galeria */
 
@@ -1858,7 +1830,7 @@ div.modal-bgOff .contenido-modal{
     display: none;
   }
 
-  .slide>div {
+  #slider1 .slide>div {
     width: 80%;
     z-index: 1;
     display: none;
@@ -2006,16 +1978,8 @@ div.modal-bgOff .contenido-modal{
 
   .imgCont {
     height: 140px;
-    width: 140px;
-  }
-
-  .item3, .item4, .item7, .item9, .item11{
     width: 100%;
   }
-
-  .contImg {
-    grid-template-columns: 140px 140px 140px 140px 140px 140px 140px 140px;
-}
   /* End galeria */
 
   /* contacto */
