@@ -178,94 +178,269 @@ function munuHamburguesa() {
 }
 // END MENU HAMBURGUESA
 
+// OBTENER BG
+function obtenerBG() {
+  let slideBG = d.querySelectorAll(".slide"),
+  slideBGscr = d.querySelectorAll(".slideBG-desk");
+
+  for (let i = 0; i < slideBGscr.length; i++) {
+    // console.log(slideBGscr[i].currentSrc);
+    slideBG[i].style.backgroundImage = `url(${slideBGscr[i].currentSrc})`;
+  }
+}
+// End OBTENER BG
+
 // SLIDER
-function slide() {
-  let $nextBtn = d.querySelector(".slider_btn .next"),
-      $prevBtn = d.querySelector(".slider_btn .prev"),
-      $slides = d.querySelectorAll(".slide"),
-      $dot = d.getElementById("dots");
-      
-  for (let i = 0; i < $slides.length; i++) {
-    let $newCard = document.createElement("li");
-    $newCard.classList.add('dot');
-    $dot.insertBefore($newCard, $dot.firstElementChild);
-  }
-
-  let i = 0,
-      dot = d.querySelectorAll(`.dot`),
-      btnPuse = d.querySelector(".pauseBtn"),
-      onOffSlide = false;
-
-  dot[0].classList.add("active");
-
-  function stopInterval() {$nextBtn.click();}
-  let myTimer = setInterval(stopInterval, 10000);
-
-  const playSlide = function() {
-    myTimer = setInterval(stopInterval, 10000);
-    btnPuse.classList.add("pausa");
-    btnPuse.classList.remove("play");
-    onOffSlide = false;
-  }
+class Sliders {
   
-  const pausaSlide = function() {
-    clearInterval(myTimer);
-    btnPuse.classList.add("play");
-    btnPuse.classList.remove("pausa");
-    onOffSlide = true;
-  }
+  constructor({id_sliders, num_sliders, animacion, tiempo_slide, velocidad_slide, dots, flechas}){
+    // Ajustes
+    this.id_sliders = document.getElementById(id_sliders);
+    this.num_sliders = num_sliders || 1;
+    this.animacion = animacion || false;
+    this.tiempo_slide = tiempo_slide || 5000;
+    this.velocidad_slide = velocidad_slide || .6;
+    this.dots = dots || false;
+    this.flechas = flechas || false;
+  };
 
-  function obtenerBG() {
-    let slideBG = d.querySelector("div.slide.active"),
-    slideBGscr = d.querySelector("div.slide.active>img").getAttribute("src");
+  slideOn(){
+    // Variables
+    let idSliders = this.id_sliders;
+    let sliderItems = this.id_sliders.querySelector('.slides');
+    let slideSolo = this.id_sliders.querySelectorAll('.slide');
+    let anchoSliders = this.id_sliders.offsetWidth;
 
-    slideBG.style.backgroundImage = `url(${slideBGscr})`;
-  }
-  obtenerBG();
+    let prev = this.id_sliders.querySelector('.prev');
+    let next = this.id_sliders.querySelector('.next');
 
-  d.addEventListener("click", function(e) {
-      if (e.target === $prevBtn) {
-        e.preventDefault();
-          dot.forEach((el, i) => { $slides[i].classList.remove("active"); dot[i].classList.remove("active"); });
-          $slides[i].classList.remove("active");
-          dot[i].classList.remove("active");
-          i--;
-          if (i < 0) {
-              i = $slides.length - 1;
-          }
-          $slides[i].classList.add("active");
-          dot[i].classList.add("active");
-          obtenerBG();
+    let animacionSlide = this.animacion;
+    let velocidadSlide = this.velocidad_slide;
+    let tiempoSlide = this.tiempo_slide;
+    let dots = this.dots;
+    let flechas = this.flechas;
+    
+    let $dot = this.id_sliders.querySelector(".dots");
+    let $flechas = idSliders.querySelectorAll(`.control`);
+
+    // Ancho slide
+    for (var i = 0; i < slideSolo.length; i++) {
+      slideSolo[i].style.width = anchoSliders / this.num_sliders + 'px';
+    }
+
+    // Ancho slide responsive
+    function slideResponsive(x) {
+      for (var i = 0; i < slideSolo.length; i++) {
+        if (x.matches) {
+          slideSolo[i].setAttribute('style', 'width:' + anchoSliders / 1 + 'px;');
+        }
       }
-      
-      if (e.target === $nextBtn) {
-        e.preventDefault();
-          dot.forEach((el, i) => { $slides[i].classList.remove("active"); dot[i].classList.remove("active"); });
-          $slides[i].classList.remove("active");
-          dot[i].classList.remove("active");
-          i++;
-          if (i >= $slides.length) {
-              i = 0;
-          }
-          $slides[i].classList.add("active");
-          dot[i].classList.add("active");
-          obtenerBG();
+    }
+
+    let x = window.matchMedia("(max-width: 700px)")
+    slideResponsive(x);
+    x.addListener(slideResponsive);
+
+    // Agregar Dots
+    if (dots === true) {
+      for (let i = 0; i < slideSolo.length; i++) {
+        let $newDot = document.createElement("div");
+        $newDot.classList.add('dot');
+        $dot.insertBefore($newDot, $dot.firstElementChild);
+      }
+    }
+
+    // Agregar Flechas
+    if (flechas === false) {  $flechas.forEach(el => { el.style.display = "none"; }); }
+
+    function slide() {
+      let posX1 = 0,
+          posX2 = 0,
+          posInitial,
+          posFinal,
+          threshold = 100,
+          slides = slideSolo,
+          slidesLength = slides.length,
+          slideSize = slideSolo[0].offsetWidth,
+          index = 0,
+          allowShift = true,
+
+          firstSlide = slides[0],
+          lastSlide = slides[slidesLength - 1],
+          cloneLast = lastSlide.cloneNode(true),
+
+          ind = 0,
+          dot = idSliders.querySelectorAll(`.dot`),
+
+          btnPuse = d.querySelector(".pauseBtn"),
+          onOffSlide = false;
+
+      // clonar
+      for (let i = 0; i < slides.length; i++) {
+        let allSlide = slides[i];
+        let cloneAllSlide = allSlide.cloneNode(true);
+        sliderItems.appendChild(cloneAllSlide);
+      }
+      sliderItems.insertBefore(cloneLast, firstSlide);
+
+      sliderItems.style.left = `-${slideSize}px`;
+      if (dots === true) {  
+        dot[0].classList.add("active");
       }
 
-      for (let ind = 0; ind < dot.length; ind++) {
-        if (e.target === dot[ind]) {
-          dot.forEach((el, i) => { $slides[i].classList.remove("active"); dot[i].classList.remove("active"); });
-          // console.log(ind, dot[ind], e.target);
-          $slides[ind].classList.add("active");
-          dot[ind].classList.add("active");
-          i = ind;
-          obtenerBG();
+      function stopInterval() {next.click();}
+      let myTimer = setInterval(stopInterval, tiempoSlide);
+
+      const playSlide = function() {
+        myTimer = setInterval(stopInterval, tiempoSlide);
+        btnPuse.classList.add("pausa");
+        btnPuse.classList.remove("play");
+        onOffSlide = false;
+      }
+  
+      const pausaSlide = function() {
+        clearInterval(myTimer);
+        btnPuse.classList.add("play");
+        btnPuse.classList.remove("pausa");
+        onOffSlide = true;
+      }
+
+      // animacion
+      if (animacionSlide === true) {
+        stopInterval();
+      }
+
+      // evetos muose
+      sliderItems.onmousedown = dragStart;
+
+      // evetos tactil
+      sliderItems.addEventListener('touchstart', dragStart);
+      sliderItems.addEventListener('touchend', dragEnd);
+      sliderItems.addEventListener('touchmove', dragAction);
+
+      // eventos click
+      prev.addEventListener('click', function () { shiftSlide(-1); });
+      next.addEventListener('click', function () {  shiftSlide(1); });
+      document.addEventListener("click", function(e) { 
+        dotActive(e); 
+        if (e.target === btnPuse) { (onOffSlide === false) ? pausaSlide() : playSlide(); }
+      });
+
+      // transicion de enventos
+      sliderItems.addEventListener('transitionend', checkIndex);
+
+      // funciones
+      function dragStart (e) {
+        e = e || window.event;
+        e.preventDefault();
+        posInitial = sliderItems.offsetLeft;
+    
+        if (e.type == 'touchstart') {
+          posX1 = e.touches[0].clientX;
+        } else {
+          posX1 = e.clientX;
+          document.onmouseup = dragEnd;
+          document.onmousemove = dragAction;
+        }
+      }
+    
+      function dragAction (e) {
+        e = e || window.event;
+    
+        if (e.type == 'touchmove') {
+          posX2 = posX1 - e.touches[0].clientX;
+          posX1 = e.touches[0].clientX;
+        } else {
+          posX2 = posX1 - e.clientX;
+          posX1 = e.clientX;
+        }
+        sliderItems.style.left = (sliderItems.offsetLeft - posX2) + "px";
+      }
+    
+      function dragEnd (e) {
+        posFinal = sliderItems.offsetLeft;
+        if (posFinal - posInitial < -threshold) {
+          shiftSlide(1, 'drag');
+        } else if (posFinal - posInitial > threshold) {
+          shiftSlide(-1, 'drag');
+        } else {
+          sliderItems.style.left = (posInitial) + "px";
+        }
+        document.onmouseup = null;
+        document.onmousemove = null;
+      }
+
+      function shiftSlide(dir, action) {
+        sliderItems.classList.add('shifting');
+        sliderItems.style.transition = `left ${velocidadSlide}s ease-out`;
+
+        if (allowShift) {
+          if (!action) { posInitial = sliderItems.offsetLeft; }
+    
+          if (dir == 1) {
+            sliderItems.style.left = (posInitial - slideSize) + "px";
+            index++;
+            dot.forEach((el, i) => {dot[i].classList.remove("active"); });
+            try { dot[index].classList.add("active"); } catch (error) {}
+          } else if (dir == -1) {
+            sliderItems.style.left = (posInitial + slideSize) + "px";
+            index--;
+            dot.forEach((el, i) => {dot[i].classList.remove("active"); });
+            try { dot[index].classList.add("active"); } catch (error) {}
+          }
+        };
+
+        allowShift = false;
+      }
+
+      function checkIndex (){
+        sliderItems.classList.remove('shifting');
+        sliderItems.style.transition = `initial`;
+    
+        if (index == -1) {
+          sliderItems.style.left = -(slidesLength * slideSize) + "px";
+          index = slidesLength - 1;
+          try { dot[slidesLength - 1].classList.add("active"); } catch (error) {}
+        }
+    
+        if (index == slidesLength) {
+          sliderItems.style.left = -(1 * slideSize) + "px";
+          index = 0;
+          try { dot[0].classList.add("active"); } catch (error) {}
+        }
+    
+        allowShift = true;
+      }
+
+      function dotActive(e) {
+        if (dots === true) {   
+          for (let inde = 0; inde < dot.length; inde++) {
+            if (e.target === dot[inde]) {
+              dot.forEach((el, i) => { /*slides[i].classList.remove("active");*/ dot[i].classList.remove("active"); });
+              dot[inde].classList.add("active");
+              
+              let posInitialx = slideSolo[0].offsetWidth;
+              
+              sliderItems.classList.add('shifting');
+              sliderItems.style.left = `-${posInitialx * (inde + 1)}px`;
+              sliderItems.style.transition = `left ${velocidadSlide}s ease-out`;
+              index = inde;
+
+              sliderItems.classList.remove('shifting');
+  
+              ind = inde;
+
+            }
+          }
         }
       }
 
-      if (e.target === btnPuse) { (onOffSlide === false) ? pausaSlide() : playSlide(); } 
+    }
 
-    });
+    slide();
+   
+  }
+  
 }
 // End SLIDER
 
@@ -332,6 +507,21 @@ function modalUp() {
 // INSERTAR SVG
 function svgInner(clase, txt) { let $svg = d.querySelectorAll(clase); $svg.forEach(e => { e.innerHTML = txt }); }
 // FIN INSERTAR SVG
+
+// FUN SLIDER
+const mis_slides = [
+  // Slide-1
+  {
+    id_sliders: "slider1",
+    num_sliders: 1,
+    animacion: true,
+    tiempo_slide: 15000,
+    velocidad_slide: 1,
+    dots: true,
+    flechas: true
+  },
+]
+// End FUN SLIDER
   
 w.addEventListener('load', (e) =>{
   setTimeout(() => {   
@@ -353,7 +543,9 @@ w.addEventListener('load', (e) =>{
     munuHamburguesa();
 
     try {
-      slide(); 
+      // slide(); 
+      mis_slides.forEach(e => { new Sliders(e).slideOn() });
+      obtenerBG();
     } catch (error) {}
 
   }, 500);
