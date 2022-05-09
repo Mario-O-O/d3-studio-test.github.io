@@ -192,7 +192,7 @@ function obtenerBG() {
 // SLIDER
 class Sliders {
   
-  constructor({id_sliders, num_sliders, animacion, tipo_animacion, tiempo_slide, velocidad_slide, dots, flechas}){
+  constructor({id_sliders, num_sliders, animacion, tipo_animacion, tiempo_slide, velocidad_slide, dots, flechas, prevNext}){
     // Ajustes
     this.id_sliders = document.getElementById(id_sliders);
     this.num_sliders = num_sliders || 1;
@@ -202,6 +202,7 @@ class Sliders {
     this.velocidad_slide = velocidad_slide || .6;
     this.dots = dots || false;
     this.flechas = flechas || false;
+    this.prevNext = prevNext || false;
   };
 
   slideOn(){
@@ -221,6 +222,7 @@ class Sliders {
     let tiempoSlide = this.tiempo_slide;
     let dots = this.dots;
     let flechas = this.flechas;
+    let prevNext = this.prevNext;
     
     let $dot = this.id_sliders.querySelector(".dots");
     let $flechas = idSliders.querySelectorAll(`.control`);
@@ -289,7 +291,8 @@ class Sliders {
         dot[0].classList.add("active");
       }
 
-      function stopInterval() {next.click();}
+      function stopInterval() {
+        (prevNext === true) ? next.click() :  prev.click();}
       let myTimer = setInterval(stopInterval, tiempoSlide);
 
       const playSlide = function() {
@@ -520,7 +523,8 @@ const mis_slides = [
     tiempo_slide: 15000,
     velocidad_slide: 1,
     dots: true,
-    flechas: true
+    flechas: true,
+    prevNext: true
   },
   // Slide-2
   {
@@ -529,9 +533,10 @@ const mis_slides = [
     animacion: true,
     tipo_animacion: "linear",
     tiempo_slide: 0.00000001,
-    velocidad_slide: 10,
+    velocidad_slide: 20,
     dots: false,
-    flechas: false
+    flechas: false,
+    prevNext: true
   },
   // Slide-3
   {
@@ -540,9 +545,10 @@ const mis_slides = [
     animacion: true,
     tipo_animacion: "linear",
     tiempo_slide: 0.00000001,
-    velocidad_slide: 15,
+    velocidad_slide: 20,
     dots: false,
-    flechas: false
+    flechas: false,
+    prevNext: false
   },
 ]
 // End FUN SLIDER
