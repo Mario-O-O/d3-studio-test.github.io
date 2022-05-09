@@ -426,7 +426,7 @@ nav.menu .cont_menu ul li a.active{
   width: 44%;
 }
 
-#slider1 .slide>img.slideBG-desk {
+#slider1 .slide>img.slideBG-desk, .slideBG-mobile {
   display: none;
 }
 
