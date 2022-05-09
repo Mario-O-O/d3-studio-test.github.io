@@ -1811,6 +1811,14 @@ div.modal-bgOff .contenido-modal{
     left: 20px;
   }
 
+  #slider2, #slider3 {
+    height: 158px;
+  }
+
+  #slider2 .slider_btn, #slider3 .slider_btn {
+    display: none;
+  }
+
   .slide {
     display: flex;
     justify-content: center;
