@@ -507,6 +507,8 @@ function modalUp() {
 
 }
 // FIN MODALES SERVICIOS
+
+// OJO SIGUE MOUSE
 const $pupila = d.querySelector('.pupila');
 const $stage = d.querySelector('.conPupila');
 
@@ -521,7 +523,7 @@ function eyeMove() {
     $pupila.style.left = x;
     $pupila.style.top = y;
   
-    (limitsEye.bottom > limitsStage.bottom) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
+    (limitsEye.bottom > (limitsStage.bottom - 2)) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
   }
 }
 // FIN OJO SIGUE MOUSE
