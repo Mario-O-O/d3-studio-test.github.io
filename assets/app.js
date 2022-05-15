@@ -509,18 +509,20 @@ function modalUp() {
 // FIN MODALES SERVICIOS
 const $pupila = d.querySelector('.pupila');
 const $stage = d.querySelector('.conPupila');
-document.onmousemove = function (e) {
-  let limitsEye = $pupila.getBoundingClientRect();
-  let limitsStage = $stage.getBoundingClientRect();
 
-  let x = `${e.clientX * 100 / window.innerWidth}%`;
-  let y = `${(e.clientY * 100 / window.innerWidth) + 10}%`;
-
-  $pupila.style.left = x;
-  $pupila.style.top = y;
+function eyeMove() {
+  document.onmousemove = function (e) {
+    let limitsEye = $pupila.getBoundingClientRect();
+    let limitsStage = $stage.getBoundingClientRect();
   
-  (limitsEye.bottom > limitsStage.bottom) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
-
+    let x = `${e.clientX * 100 / window.innerWidth}%`;
+    let y = `${(e.clientY * 100 / window.innerWidth) + 10}%`;
+  
+    $pupila.style.left = x;
+    $pupila.style.top = y;
+  
+    (limitsEye.bottom > limitsStage.bottom) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
+  }
 }
 // FIN OJO SIGUE MOUSE
 
@@ -592,6 +594,7 @@ w.addEventListener('load', (e) =>{
       // slide(); 
       mis_slides.forEach(e => { new Sliders(e).slideOn() });
       obtenerBG();
+      eyeMove();
     } catch (error) {}
 
   }, 500);
