@@ -507,6 +507,22 @@ function modalUp() {
 
 }
 // FIN MODALES SERVICIOS
+const $pupila = d.querySelector('.pupila');
+const $stage = d.querySelector('.conPupila');
+document.onmousemove = function (e) {
+  let limitsEye = $pupila.getBoundingClientRect();
+  let limitsStage = $stage.getBoundingClientRect();
+
+  let x = `${e.clientX * 100 / window.innerWidth}%`;
+  let y = `${(e.clientY * 100 / window.innerWidth) + 10}%`;
+
+  $pupila.style.left = x;
+  $pupila.style.top = y;
+  
+  (limitsEye.bottom > limitsStage.bottom) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
+
+}
+// FIN OJO SIGUE MOUSE
 
 // INSERTAR SVG
 function svgInner(clase, txt) { let $svg = d.querySelectorAll(clase); $svg.forEach(e => { e.innerHTML = txt }); }
