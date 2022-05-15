@@ -2080,7 +2080,7 @@ div.modal-bgOff .contenido-modal{
 
   /* galeria */
   section.galeria {
-    margin-top: 88px;
+    margin-top: 55px;
     margin-bottom: 88px;
   }
 
@@ -2091,7 +2091,7 @@ div.modal-bgOff .contenido-modal{
 
   .pupila {
     top: 7px !important;
-    left: 10px !important;
+    left: 6px !important;
     transform: translate(0px, 0px);
   }
   /* End galeria */
