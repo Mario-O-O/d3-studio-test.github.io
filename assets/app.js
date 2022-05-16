@@ -522,8 +522,10 @@ function eyeMove() {
   
     $pupila.style.left = x;
     $pupila.style.top = y;
+
+    // console.log($pupila.offsetTop)
   
-    (limitsEye.bottom > (limitsStage.bottom - 2)) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
+    ($pupila.offsetTop > 8) ? $pupila.style.height = '9px' : $pupila.style.height = '13px';
   }
 }
 // FIN OJO SIGUE MOUSE

@@ -66,10 +66,11 @@ img {
 .trigger{
   position: fixed;
   right: 20px;
-  top: 30%;
-  height: 1px;
+  top: 55%;
+  height: 0px;
   width: 20px;
-  background: blue;
+  background: transparent;
+  pointer-events: none;
 }
 
 /*-----------------------------------
@@ -1093,12 +1094,11 @@ section.galeria {
   border-radius: 9px;
   transform: translate(-2px, 0px);
   opacity: 0;
-  transition: height .6s, transform .6s;
+  transition: height .6s, transform .6s, opacity .2s;
 }
 
 .onOjo .pupila {
   opacity: 1;
-  transition: opacity .5s;
 }
 
 .conBtnPro:hover .pupila{
