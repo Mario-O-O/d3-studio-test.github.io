@@ -2149,6 +2149,10 @@ div.modal-bgOff .contenido-modal{
   .slider_btn, .slider_btn .sigt, .slider_btn .atrs, .pauseBtn {
     cursor:  none;
   }
+
+  .slider_btn .sigt:active, .slider_btn .atrs:active, .pauseBtn:active {
+    background: #868890;
+  }
   /* End slider */
 
   /* servicios */
