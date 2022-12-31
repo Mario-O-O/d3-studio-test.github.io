@@ -2145,6 +2145,10 @@ div.modal-bgOff .contenido-modal{
   p.parrSlide {
     max-width: initial;
   }
+
+  .slider_btn {
+    cursor:  none;
+  }
   /* End slider */
 
   /* servicios */
