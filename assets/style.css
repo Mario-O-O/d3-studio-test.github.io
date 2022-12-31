@@ -2146,7 +2146,7 @@ div.modal-bgOff .contenido-modal{
     max-width: initial;
   }
 
-  .slider_btn {
+  .slider_btn, .slider_btn .sigt, .slider_btn .atrs, .pauseBtn {
     cursor:  none;
   }
   /* End slider */
