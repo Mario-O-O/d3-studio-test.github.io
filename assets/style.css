@@ -22,7 +22,7 @@ body{
   background: #F5F5F5;
 }
 
-.menu, .cont_menu ul li a, .cont_dTres *, .cont_dTres, .dTres_txt, .cont_menu, body, .switch, .switchDarkLight, .dot, .slider_btn, .servMas, .servTxt h3, .letra img, .verPro, .verPro::before, .dkm, .servMas h5, .dTres::after, .servImg img, .servImg, body.darkMode #mensaje::placeholder, body.darkMode #mensaje, body.darkMode .contInputs input::placeholder, body.darkMode .contInputs input, body.darkMode .fonmContacto input[type="button"], g#studio path, g#studio g path, g#studio rect, .contLegal, .contFoot, .menuDesk, .menuMobile, .lineMneu, g#Grupo_3394 path, .TTProyects, .redes img, #locales, .tablinks, .ico-casa g#casa-grisCla path, .ico-casa g#casa-grisOsc path, .ico-casa g#casa-grisOsc2 path, .tab-TT, .pauseBtn, .btn_servicios, .btn_proyectos {
+.menu, .cont_menu ul li a, .cont_dTres *, .cont_dTres, .dTres_txt, .cont_menu, body, .switch, .switchDarkLight, .dot, .slider_btn, .servMas, .servTxt h3, .letra img, .verPro, .verPro::before, .dkm, .servMas h5, .dTres::after, .servImg img, .servImg, body.darkMode #mensaje::placeholder, body.darkMode #mensaje, body.darkMode .contInputs input::placeholder, body.darkMode .contInputs input, body.darkMode .fonmContacto input[type="button"], g#studio path, g#studio g path, g#studio rect, .contLegal, .contFoot, .menuDesk, .menuMobile, .lineMneu, g#Grupo_3394 path, .TTProyects, .redes img, #locales, .tablinks, .ico-casa g#casa-grisCla path, .ico-casa g#casa-grisOsc path, .ico-casa g#casa-grisOsc2 path, .tab-TT, .pauseBtn, .btn_servicios, .btn_proyectos, .sigt, .atrs, .miSlide {
   transition: all 0.5s ease-in-out;
 }
 
@@ -216,7 +216,7 @@ p{
 img.blur2-1, img.blur2-2 {
   position: absolute;
   pointer-events: none;
-  width: 60%;
+  width: 65%;
   left: -55vw;
   top: 240px;
 }
@@ -419,26 +419,57 @@ nav.menu .cont_menu ul li a.active{
 
 }
 
-#slider1{
-  background: whitesmoke;
-  box-shadow: 0px 15px 30px 0px rgb(133 137 156 / 15%);
-  height: 73vh;
-  margin: 0 auto;
-  position: relative;
-  border-radius: 50px;
-  overflow: hidden;
-}
-
 .slide.active {
   opacity: 1;
   pointer-events: auto;
 }
 
-#slider1 .slide>div {
-  width: 44%;
+.slider_cont_all {
+  position: relative;
 }
 
-#slider1 .slide>img.slideBG-desk, .slideBG-mobile {
+.slider_cont{
+  height: 320px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.miSlide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.miSlide.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.miSlide_txt {
+  width: 40%;
+}
+
+.slideBG-desk {
+  background: blue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 55%;
+  /* height: 520px;
+  /* display: flex; */
+}
+
+.img-bg-x {
   display: none;
 }
 
@@ -448,40 +479,44 @@ nav.menu .cont_menu ul li a.active{
   height: 100%;
   position: absolute;
   top: 0;
-  right: 35px;
+  right: -30px;
 }
 
 .slider_btn{
+  z-index: 1;
   cursor: pointer;
   position: absolute;
-  bottom: 30px;
-  right: 35px;
+  bottom: 0;
+  right: -40px;
   opacity: 0;
 }
 
-.slider_btn .prev, .slider_btn .next, .pauseBtn{
-  border: 0px solid #000000;
+.slider_cont_all:hover .slider_btn {
+  opacity: 1;
+}
+
+.slider_btn .atrs, .slider_btn .sigt, .pauseBtn{
   padding: 0;
   height: 35px;
   width: 35px;
   border-radius: 10px;
-  background: rgb(33 35 37 / 20%);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
+  /* box-shadow: 0 0 0 1px #ebecf1 inset; */
 }
 
-#slider1:hover .slider_btn{
-  opacity: 1;
+#slider2 .slider_btn, #slider3 .slider_btn {
+  display: none;
 }
 
 .dot {
   cursor: pointer;
   height: 10px;
   width: 10px;
-  background: #000000;
-  opacity: .2;
+  background: #d5d6de;
   border-radius: 50px;
   margin-bottom: 19px;
 }
@@ -492,20 +527,25 @@ nav.menu .cont_menu ul li a.active{
   opacity: 1;
 }
 
-.slider_btn .next, .slider_btn .prev, .pauseBtn{
+.slider_btn .sigt, .slider_btn .atrs, .pauseBtn{
   position: relative;
   cursor: pointer;
 }
 
 .pauseBtn{
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .pauseBtn:hover{
   background: #7CEDDC;
 }
 
-.slider_btn .next::before{
+.atrs:hover,
+.sigt:hover {
+  background-color: var(--color-d);
+}
+
+.slider_btn .sigt::before{
   content: '';
   position: absolute;
   left: 19px;
@@ -514,10 +554,11 @@ nav.menu .cont_menu ul li a.active{
   height: 0;
   border-style: solid;
   border-width: 6px 0 6px 7px;
-  border-color: transparent transparent transparent #F6F6F6;
+  border-color: transparent transparent transparent #d5d6de;
+  transition: all 0.6s;
 }
 
-.slider_btn .next::after{
+.slider_btn .sigt::after{
   content: '';
   position: absolute;
   left: 13px;
@@ -526,10 +567,19 @@ nav.menu .cont_menu ul li a.active{
   height: 0;
   border-style: solid;
   border-width: 6px 0 6px 7px;
-  border-color: transparent transparent transparent #F6F6F6;
+  border-color: transparent transparent transparent #d5d6de;
+  transition: all 0.6s;
 }
 
-.slider_btn .prev::before{
+.sigt:hover::before{
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.sigt:hover::after{
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.slider_btn .atrs::before{
   content: '';
   position: absolute;
   left: 15px;
@@ -538,10 +588,11 @@ nav.menu .cont_menu ul li a.active{
   height: 0;
   border-style: solid;
   border-width: 6px 7px 6px 0;
-  border-color: transparent #F6F6F6 transparent transparent;
+  border-color: transparent #d5d6de transparent transparent;
+  transition: all 0.6s;
 }
 
-.slider_btn .prev::after{
+.slider_btn .atrs::after{
   content: '';
   position: absolute;
   left: 9px;
@@ -550,7 +601,16 @@ nav.menu .cont_menu ul li a.active{
   height: 0;
   border-style: solid;
   border-width: 6px 7px 6px 0;
-  border-color: transparent #F6F6F6 transparent transparent;
+  border-color: transparent #d5d6de transparent transparent;
+  transition: all 0.6s;
+}
+
+.atrs:hover::before{
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.atrs:hover::after{
+  border-color: transparent #ffffff transparent transparent;
 }
 
 .slider_btn .play::after{
@@ -562,7 +622,11 @@ nav.menu .cont_menu ul li a.active{
   height: 0;
   border-style: solid;
   border-width: 6px 0 6px 7px;
-  border-color: transparent transparent transparent #F6F6F6;
+  border-color: transparent transparent transparent #d5d6de;
+}
+
+.play:hover::after{
+  border-color: transparent transparent transparent #ffffff;
 }
 
 .slider_btn .pausa::after{
@@ -572,7 +636,7 @@ nav.menu .cont_menu ul li a.active{
   top: 11px;
   width: 4px;
   height: 13px;
-  background: #F6F6F6;
+  background: #d5d6de;
 }
 
 .slider_btn .pausa::before{
@@ -582,7 +646,11 @@ nav.menu .cont_menu ul li a.active{
   top: 11px;
   width: 4px;
   height: 13px;
-  background: #F6F6F6;
+  background: #d5d6de;
+}
+
+.pausa:hover::after, .pausa:hover::before{
+  background: #ffffff;
 }
 
 .slider {
@@ -658,7 +726,6 @@ p.subTTslide {
 h1.TTslidee {
   margin-top: -20px;
   margin-bottom: 20px;
-  color: #FFFFFF;
 }
 
 p.parrSlide {
@@ -716,7 +783,7 @@ p.parrSlide {
 
 .servicios {
   max-width: 685px;
-  margin-top: 167px;
+  margin-top: 150px;
   margin-bottom: 108px;
 }
 
@@ -1904,11 +1971,6 @@ div.modal-bgOff .contenido-modal{
   /* End menu */
 
   /* slider */
-  #slider1{
-    border-radius: 30px;
-    overflow: hidden;
-  }
-
   .contDots {
     height: auto;
     bottom: 18px;
@@ -1916,9 +1978,11 @@ div.modal-bgOff .contenido-modal{
     right: 0;
     width: 100%;
     justify-content: center;
+    position: initial;
+    margin-top: 35px;
   }
 
-  .dots {
+  .dots, #dots {
     display: flex;
   }
 
@@ -1950,12 +2014,28 @@ div.modal-bgOff .contenido-modal{
     border-radius: 13px;
   }
 
-  .slider_btn .prev:hover, .slider_btn .next:hover, .pauseBtn:hover {
-    background: rgb(33 35 37 / 20%);
+  .slider_btn .sigt:hover, .slider_btn .atrs:hover, .pauseBtn:hover {
+    background: transparent;
   }
 
-  .slider_btn .prev:active, .slider_btn .next:active, .pauseBtn:active {
-    background: var(--color-d);
+  .sigt:hover::before, .sigt:hover::after{
+    border-color: transparent transparent transparent #d5d6de;
+  }
+
+  .atrs:hover::before, .atrs:hover::after{
+    border-color: transparent #d5d6de transparent transparent;
+  }
+
+  .pausa:hover::after, .pausa:hover::before {
+    background: #d5d6de;
+  }
+
+  .play:hover::after {
+    border-color: transparent transparent transparent #d5d6de;
+}
+
+  .slider_btn .atrs:active, .slider_btn .sigt:active, .pauseBtn:active {
+    background: #ebecf1;
   }
 
   .pauseBtn {
@@ -2017,22 +2097,29 @@ div.modal-bgOff .contenido-modal{
     width: auto;
   }
 
-  .div-X{
-    display: none;
-  }
-
-  #slider1 .slide>div {
-    width: 80%;
-    z-index: 1;
-    display: none;
-  }
-
   p.subTTslide {
     font-size: 18px;
   }
 
+  .miSlide {
+    flex-direction: column;
+  }
+
+  .miSlide_txt, .slideBG-desk {
+    width: 100%;
+  }
+
+  .slideBG-desk {
+    max-height: 210px;
+    border-radius: 18px;
+  }
+  .slider_btn {
+    position: initial;
+    margin-top: 20px;
+  }
+
   .contSubTT {
-    margin-top: 150px;
+    margin-top: 30px;
   }
 
   p.parrSlide {
@@ -2346,10 +2433,6 @@ div.modal-bgOff .contenido-modal{
   h1.TTslidee {
     margin-top: 0px;
   }
-
-  .contSubTT {
-    margin-top: 0px;
-  }
 }
 
 @media (max-width:1920px) {}
@@ -2370,7 +2453,7 @@ body.darkMode .switch {
   background: #ffffff;
 }
 
-body.darkMode h1, body.darkMode h2, body.darkMode h3, body.darkMode h4, body.darkMode h5, body.darkMode h6, body.darkMode .cont_menu ul li a, body.darkMode .fonmContacto input[type="button"] {
+body.darkMode h1, body.darkMode p.subTTslide, body.darkMode h2, body.darkMode h3, body.darkMode h4, body.darkMode h5, body.darkMode h6, body.darkMode .cont_menu ul li a, body.darkMode .fonmContacto input[type="button"] {
   color: #ffffff;
 }
 

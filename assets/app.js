@@ -180,14 +180,97 @@ function munuHamburguesa() {
 
 // OBTENER BG
 function obtenerBG() {
-  let slideBG = d.querySelectorAll(".slide"),
-  slideBGscr = d.querySelectorAll(".slideBG-desk");
+  let slideBG = d.querySelectorAll(".slideBG-desk"),
+  slideBGscr = d.querySelectorAll(".img-bg-x");
 
   for (let i = 0; i < slideBGscr.length; i++) {
     slideBG[i].style.backgroundImage = `url(${slideBGscr[i].currentSrc})`;
   }
 }
 // End OBTENER BG
+
+// SLIDER
+function slideHome() {
+  let $nextBtn = d.querySelector(".slider_btn .sigt"),
+      $prevBtn = d.querySelector(".slider_btn .atrs"),
+      $slides = d.querySelectorAll(".miSlide"),
+      $dot = d.getElementById("dots");
+      
+  for (let i = 0; i < $slides.length; i++) {
+    let $newCard = document.createElement("li");
+    $newCard.classList.add('dot');
+    $dot.insertBefore($newCard, $dot.firstElementChild);
+  }
+
+  let i = 0,
+      dot = d.querySelectorAll(`.dot`),
+      btnPuse = d.querySelector(".pauseBtn"),
+      onOffSlide = false;
+
+  dot[0].classList.add("active");
+
+  function stopInterval() {$nextBtn.click();}
+  let myTimer = setInterval(stopInterval, 15000);
+
+  const playSlide = function() {
+    myTimer = setInterval(stopInterval, 15000);
+    btnPuse.classList.add("pausa");
+    btnPuse.classList.remove("play");
+    onOffSlide = false;
+  }
+  
+  const pausaSlide = function() {
+    clearInterval(myTimer);
+    btnPuse.classList.add("play");
+    btnPuse.classList.remove("pausa");
+    onOffSlide = true;
+  }
+
+  d.addEventListener("click", function(e) {
+      if (e.target === $prevBtn) {
+        e.preventDefault();
+          dot.forEach((el, i) => { $slides[i].classList.remove("active"); dot[i].classList.remove("active"); });
+          $slides[i].classList.remove("active");
+          dot[i].classList.remove("active");
+          i--;
+          if (i < 0) {
+              i = $slides.length - 1;
+          }
+          $slides[i].classList.add("active");
+          dot[i].classList.add("active");
+          obtenerBG();
+      }
+      
+      if (e.target === $nextBtn) {
+        e.preventDefault();
+          dot.forEach((el, i) => { $slides[i].classList.remove("active"); dot[i].classList.remove("active"); });
+          $slides[i].classList.remove("active");
+          dot[i].classList.remove("active");
+          i++;
+          if (i >= $slides.length) {
+              i = 0;
+          }
+          $slides[i].classList.add("active");
+          dot[i].classList.add("active");
+          obtenerBG();
+      }
+
+      for (let ind = 0; ind < dot.length; ind++) {
+        if (e.target === dot[ind]) {
+          dot.forEach((el, i) => { $slides[i].classList.remove("active"); dot[i].classList.remove("active"); });
+          // console.log(ind, dot[ind], e.target);
+          $slides[ind].classList.add("active");
+          dot[ind].classList.add("active");
+          i = ind;
+          obtenerBG();
+        }
+      }
+
+      if (e.target === btnPuse) { (onOffSlide === false) ? pausaSlide() : playSlide(); } 
+
+    });
+}
+// End SLIDER
 
 // SLIDER
 class Sliders {
@@ -536,18 +619,6 @@ function svgInner(clase, txt) { let $svg = d.querySelectorAll(clase); $svg.forEa
 
 // FUN SLIDER
 const mis_slides = [
-  // Slide-1
-  {
-    id_sliders: "slider1",
-    num_sliders: 1,
-    animacion: true,
-    tipo_animacion: "ease-out",
-    tiempo_slide: 15000,
-    velocidad_slide: 1,
-    dots: true,
-    flechas: true,
-    prevNext: true
-  },
   // Slide-2
   {
     id_sliders: "slider2",
@@ -595,7 +666,7 @@ w.addEventListener('load', (e) =>{
     munuHamburguesa();
 
     try {
-      // slide(); 
+      slideHome(); 
       mis_slides.forEach(e => { new Sliders(e).slideOn() });
       obtenerBG();
       eyeMove();
