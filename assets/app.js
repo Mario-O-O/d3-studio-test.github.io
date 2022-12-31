@@ -189,7 +189,7 @@ function obtenerBG() {
 }
 // End OBTENER BG
 
-// SLIDER
+// SLIDER-HOME
 function slideHome() {
   let $nextBtn = d.querySelector(".slider_btn .sigt"),
       $prevBtn = d.querySelector(".slider_btn .atrs"),
@@ -270,7 +270,7 @@ function slideHome() {
 
     });
 }
-// End SLIDER
+// End SLIDER-HOME
 
 // SLIDER
 class Sliders {

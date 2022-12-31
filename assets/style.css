@@ -73,6 +73,24 @@ img {
   pointer-events: none;
 }
 
+::-webkit-scrollbar {
+  width: 13px;
+  opacity: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #d5d6de;
+border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: #b6b8c0;
+}
+
 /*-----------------------------------
 1.1 Alineaciones
 -----------------------------------*/
@@ -216,7 +234,7 @@ p{
 img.blur2-1, img.blur2-2 {
   position: absolute;
   pointer-events: none;
-  width: 65%;
+  width: 60%;
   left: -55vw;
   top: 240px;
 }
@@ -716,6 +734,8 @@ nav.menu .cont_menu ul li a.active{
 /* ---------------------- slide 1 */
 .contSubTT img {
   width: 45px;
+  position: relative;
+  top: -3px;
 }
 
 p.subTTslide {
@@ -2442,6 +2462,14 @@ div.modal-bgOff .contenido-modal{
 -----------------------------------*/
 body.darkMode, body.darkMode nav.menuOn, body.darkMode nav, body.darkMode #locales {
   background: #222325;
+}
+
+body.darkMode::-webkit-scrollbar-thumb {
+  background-color: #424650;
+  }
+  
+body.darkMode::-webkit-scrollbar-thumb:hover {
+background-color: #535865;
 }
 
 body.darkMode .switchDarkLight {
