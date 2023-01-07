@@ -2157,6 +2157,7 @@ div.modal-bgOff .contenido-modal{
 
   .miSlide {
     flex-direction: column;
+    justify-content: flex-start;
   }
 
   .miSlide_txt, .slideBG-desk {
@@ -2195,11 +2196,21 @@ div.modal-bgOff .contenido-modal{
     margin-bottom: 88px;
   }
 
-  .Serv {
-    margin-bottom: 50px;
+  .contServAll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
+  .Serv {
+    margin: 10px;
+    margin-bottom: 50px;
+    max-width: 290px;
+    margin-top: 40px;
+}
+
   .TTServ {
+    max-width: 325px;
     justify-content: initial;
   }
 
