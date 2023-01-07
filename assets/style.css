@@ -208,6 +208,8 @@ p{
   display: block;
   padding: 13px;
   border-radius: 15px;
+  height: 100%;
+  width: 100%;
 }
 
 .btn-ws>a:hover {
@@ -218,9 +220,9 @@ p{
   fill: #ffffff;
 }
 
-.btn-ws>a .ico-ws {
+/* .btn-ws>a .ico-ws {
   transform: translateY(1px);
-}
+} */
 
 .load, .load-2, .leave, .leave-2 {
   background: #292E35;
