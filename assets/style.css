@@ -1434,8 +1434,9 @@ section.cierre {
   z-index: 3;
 }
 
-.ojo svg{
+.ojo svg, .ojo img{
   pointer-events: none;
+  width: 70%;
 }
 
 .activeEye path#Trazado_7119, .activeEye path#Trazado_7118{

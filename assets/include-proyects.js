@@ -130,7 +130,7 @@ const getAll = function () {
         btnEye.id = el.value;
         btnEye.title = el.nombre;
         btnEye.classList.add("ojo");
-        btnEye.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="15.338" height="11.078" viewBox="0 0 15.338 11.078"><g id="Grupo_3379" data-name="Grupo 3379" transform="translate(0 0)"><path id="Trazado_7118" data-name="Trazado 7118" d="M277.234,65.018a8.24,8.24,0,0,0-7.669,5.539,8.079,8.079,0,0,0,15.338,0A8.237,8.237,0,0,0,277.234,65.018Zm0,9.231h0a3.7,3.7,0,1,1,3.486-3.693A3.56,3.56,0,0,1,277.234,74.25Z" transform="translate(-269.565 -65.018)" fill="#222325"/><path id="Trazado_7119" data-name="Trazado 7119" d="M277.632,68.578a2.22,2.22,0,1,0,2.091,2.216,2.118,2.118,0,0,0-2.091-2.216Z" transform="translate(-269.963 -65.255)" fill="#222325"/></g></svg>`;
+        btnEye.innerHTML = `<img src="${el.icon}" alt="" class="icon-logo">`;
         document.querySelector(".btnOjos").appendChild(btnEye);
       });
 
