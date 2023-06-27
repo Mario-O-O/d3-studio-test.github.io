@@ -1460,8 +1460,8 @@ section.cierre {
 }
 
 #villamercar{
-  top: 50%;
-  right: 35%;
+  top: 70%;
+  right: 37%;
 }
 
 #boltpack{
@@ -1470,8 +1470,8 @@ section.cierre {
 }
 
 #cafeCaldas{
-  top: 60%;
-  right: 45%;
+  top: 70%;
+  right: 25%;
 }
 
 #comicIceCream{
@@ -1492,6 +1492,51 @@ section.cierre {
 #elMaestro{
   top: 50%;
   right: 10%;
+}
+
+#herjo{
+  top: 50%;
+  right: 50%;
+}
+
+#granBodega{
+  top: 50%;
+  left: 10%;
+}
+
+#goggiPets{
+  top: 50%;
+  left: 20%;
+}
+
+#ruzzi{
+  top: 50%;
+  left: 30%;
+}
+
+#surtihogar{
+  top: 30%;
+  left: 40%;
+}
+
+#merkeValle{
+  top: 30%;
+  left: 0%;
+}
+
+#pedregal{
+  top: 30%;
+  left: 10%;
+}
+
+#supercompras{
+  top: 36%;
+  left: 20%;
+}
+
+#surtiTodo{
+  top: 36%;
+  left: 30%;
 }
 
 /* MODALES */
