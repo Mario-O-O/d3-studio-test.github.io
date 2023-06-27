@@ -23,22 +23,22 @@ function navMenu(linea, classLi) {
   recLeftBottom();
 
   switch (URLactual.pathname) {
-    case '/d3-studio-test.github.io/index.html':
+    case '/index':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[0].classList.add("active");
       recLeftBottom();
       break;
-    case '/d3-studio-test.github.io/servicios.html':
+    case '/servicios':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[1].classList.add("active");
       recLeftBottom();
       break;
-    case '/d3-studio-test.github.io/proyectos.html':
+    case '/proyectos':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[2].classList.add("active");
       recLeftBottom();
       break;
-    case '/d3-studio-test.github.io/contacto.html':
+    case '/contacto':
       $aTarget.forEach(function(el) { el.classList.remove("active") });
       $aTarget[3].classList.add("active");
       recLeftBottom();

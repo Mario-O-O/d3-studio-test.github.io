@@ -1412,6 +1412,7 @@ section.cierre {
   align-items: center;
   justify-content: center;
   z-index: 2;
+  box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 10%);
 }
 
 .ojo::after{
@@ -1443,19 +1444,54 @@ section.cierre {
   fill: #ffffff;
 }
 
-#value1{
+#ahorreMas{
   top: 10%;
   left: 10%;
 }
 
-#value2{
+#anfero{
   top: 20%;
   left: 20%;
 }
 
-#value3{
+#tapazo{
   top: 50%;
   right: 30%;
+}
+
+#villamercar{
+  top: 50%;
+  right: 35%;
+}
+
+#boltpack{
+  top: 55%;
+  right: 40%;
+}
+
+#cafeCaldas{
+  top: 60%;
+  right: 45%;
+}
+
+#comicIceCream{
+  top: 65%;
+  right: 50%;
+}
+
+#demi{
+  top: 30%;
+  right: 30%;
+}
+
+#condor{
+  top: 30%;
+  right: 20%;
+}
+
+#elMaestro{
+  top: 50%;
+  right: 10%;
 }
 
 /* MODALES */
@@ -1590,8 +1626,8 @@ section.cierre {
 .contIMG{
   background: #ebecf1;
   cursor: pointer;
-  /* margin: 10px; */
-  margin-bottom: 20px;
+  margin: 0.99%;
+  /* margin-bottom: 20px; */
   border-radius: 7px;
   overflow: hidden;
   display: flex;
@@ -1660,6 +1696,11 @@ section.cierre {
 .contimgLocal {
   position: relative;
   margin-bottom: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #e6e8f0;
+  padding: 5px;
+  display: flex;
 }
 
 @keyframes animapoint {
@@ -1709,7 +1750,7 @@ section.cierre {
 
 .galeria {
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .imgGaleria {
@@ -2473,6 +2514,7 @@ div.modal-bgOff .contenido-modal{
   }
 
   .galeria {
+    justify-content: center;
     flex-wrap: wrap;
   }
 
