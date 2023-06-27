@@ -7,16 +7,46 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 1",
       "imgPrincipal": "../images/galeria/ahorre-mas/img-ahorremas.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/ahorre-mas/ahorra-mas-1.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-2.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-3.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-4.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-5.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-6.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-7.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-8.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-9.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-10.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-11.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-12.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-13.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-14.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-15.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-16.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-17.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-18.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-19.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/ahorre-mas/ahorra-mas-1.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-2.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-3.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-4.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-5.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-6.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-7.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-8.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-9.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-10.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-11.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-12.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-13.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-14.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-15.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-16.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-17.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-18.jpg",
+        "../images/galeria/ahorre-mas/ahorra-mas-19.jpg"
       ]
     },
     {
@@ -27,16 +57,22 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/anfero/img-anfero.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/anfero/anfero-1.jpg",
+        "../images/galeria/anfero/anfero-2.jpg",
+        "../images/galeria/anfero/anfero-3.jpg",
+        "../images/galeria/anfero/anfero-4.jpg",
+        "../images/galeria/anfero/anfero-5.jpg",
+        "../images/galeria/anfero/anfero-6.jpg",
+        "../images/galeria/anfero/anfero-7.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/anfero/anfero-1.jpg",
+        "../images/galeria/anfero/anfero-2.jpg",
+        "../images/galeria/anfero/anfero-3.jpg",
+        "../images/galeria/anfero/anfero-4.jpg",
+        "../images/galeria/anfero/anfero-5.jpg",
+        "../images/galeria/anfero/anfero-6.jpg",
+        "../images/galeria/anfero/anfero-7.jpg"
       ]
     },
     {
@@ -47,16 +83,16 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/tapazo/img-tapazo.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/tapazo/el-tapazo-1.jpg",
+        "../images/galeria/tapazo/el-tapazo-2.jpg",
+        "../images/galeria/tapazo/el-tapazo-3.jpg",
+        "../images/galeria/tapazo/el-tapazo-4.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/tapazo/el-tapazo-1.jpg",
+        "../images/galeria/tapazo/el-tapazo-2.jpg",
+        "../images/galeria/tapazo/el-tapazo-3.jpg",
+        "../images/galeria/tapazo/el-tapazo-4.jpg"
       ]
     },
     {
@@ -67,16 +103,14 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/villamercar/img-villamercar.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/villamercar/villamercar.jpg", 
+        "../images/galeria/villamercar/villamercar-2.jpg", 
+        "../images/galeria/villamercar/villamercar-3.jpg" 
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/villamercar/villamercar.jpg", 
+        "../images/galeria/villamercar/villamercar-2.jpg", 
+        "../images/galeria/villamercar/villamercar-3.jpg"
       ]
     },
     {
@@ -87,16 +121,14 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/boltpack/img-boltpack.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/boltpack/boltpack-1.jpg",
+        "../images/galeria/boltpack/boltpack-3.jpg",
+        "../images/galeria/boltpack/boltpack-5.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/boltpack/boltpack-2.jpg",
+        "../images/galeria/boltpack/boltpack-4.jpg",
+        "../images/galeria/boltpack/boltpack-6.jpg"
       ]
     },
     {
@@ -107,16 +139,24 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/cafe-caldas/img-cafe-caldas.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/cafe-caldas/cafe-caldad-1.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-2.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-3.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-4.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-5.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-6.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-7.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-8.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/cafe-caldas/cafe-caldad-1.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-2.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-3.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-4.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-5.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-6.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-7.jpg",
+        "../images/galeria/cafe-caldas/cafe-caldad-8.jpg"
       ]
     },
     {
@@ -127,16 +167,22 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/comics-ice-cream/img-comics-ice-cream.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/comics-ice-cream/comics-iceCream-1.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-2.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-3.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-4.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-5.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-6.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-7.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/comics-ice-cream/comics-iceCream-1.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-2.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-3.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-4.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-5.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-6.jpg",
+        "../images/galeria/comics-ice-cream/comics-iceCream-7.jpg"
       ]
     },
     {
@@ -147,16 +193,12 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/demi/img-demi.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/demi/demi-1.jpg",
+        "../images/galeria/demi/demi-2.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/demi/demi-1.jpg",
+        "../images/galeria/demi/demi-2.jpg"
       ]
     },
     {
@@ -167,16 +209,30 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/condor/img-condor.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/condor/condor-1.jpg",
+        "../images/galeria/condor/condor-2.jpg",
+        "../images/galeria/condor/condor-3.jpg",
+        "../images/galeria/condor/condor-4.jpg",
+        "../images/galeria/condor/condor-5.jpg",
+        "../images/galeria/condor/condor-6.jpg",
+        "../images/galeria/condor/condor-7.jpg",
+        "../images/galeria/condor/condor-8.jpg",
+        "../images/galeria/condor/condor-9.jpg",
+        "../images/galeria/condor/condor-10.jpg",
+        "../images/galeria/condor/condor-11.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/condor/condor-1.jpg",
+        "../images/galeria/condor/condor-2.jpg",
+        "../images/galeria/condor/condor-3.jpg",
+        "../images/galeria/condor/condor-4.jpg",
+        "../images/galeria/condor/condor-5.jpg",
+        "../images/galeria/condor/condor-6.jpg",
+        "../images/galeria/condor/condor-7.jpg",
+        "../images/galeria/condor/condor-8.jpg",
+        "../images/galeria/condor/condor-9.jpg",
+        "../images/galeria/condor/condor-10.jpg",
+        "../images/galeria/condor/condor-11.jpg"
       ]
     },
     {
@@ -187,16 +243,14 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/el-maestro/img-el-maestro.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/el-maestro/el-maestro-1.jpg",
+        "../images/galeria/el-maestro/el-maestro-2.jpg",
+        "../images/galeria/el-maestro/el-maestro-3.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/el-maestro/el-maestro-1.jpg",
+        "../images/galeria/el-maestro/el-maestro-2.jpg",
+        "../images/galeria/el-maestro/el-maestro-3.jpg"
       ]
     },
     {
@@ -207,16 +261,10 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/herjo/img-herjo.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/herjo/herjo-1.jpg" 
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/herjo/herjo-1.jpg" 
       ]
     },
     {
@@ -227,16 +275,40 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/gran-bodega/img-gran-bodega.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/gran-bodega/la-gran-bodega-1.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-2.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-3.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-4.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-5.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-6.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-7.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-8.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-9.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-10.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-11.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-12.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-13.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-14.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-15.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-16.jpg" 
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/gran-bodega/la-gran-bodega-1.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-2.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-3.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-4.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-5.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-6.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-7.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-8.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-9.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-10.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-11.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-12.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-13.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-14.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-15.jpg", 
+        "../images/galeria/gran-bodega/la-gran-bodega-16.jpg" 
       ]
     },
     {
@@ -247,16 +319,12 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/goggi-pets/img-goggi-pets.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/goggi-pets/goggi-1.jpg", 
+        "../images/galeria/goggi-pets/goggi-2.jpg" 
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/goggi-pets/goggi-1.jpg", 
+        "../images/galeria/goggi-pets/goggi-2.jpg"
       ]
     },
     {
@@ -267,16 +335,40 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/ruzzi/img-ruzzi.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/ruzzi/russi-1.jpg",
+        "../images/galeria/ruzzi/russi-2.jpg",
+        "../images/galeria/ruzzi/russi-3.jpg",
+        "../images/galeria/ruzzi/russi-4.jpg",
+        "../images/galeria/ruzzi/russi-5.jpg",
+        "../images/galeria/ruzzi/russi-6.jpg",
+        "../images/galeria/ruzzi/russi-7.jpg",
+        "../images/galeria/ruzzi/russi-8.jpg",
+        "../images/galeria/ruzzi/russi-9.jpg",
+        "../images/galeria/ruzzi/russi-10.jpg",
+        "../images/galeria/ruzzi/russi-11.jpg",
+        "../images/galeria/ruzzi/russi-12.jpg",
+        "../images/galeria/ruzzi/russi-13.jpg",
+        "../images/galeria/ruzzi/russi-14.jpg",
+        "../images/galeria/ruzzi/russi-15.jpg",
+        "../images/galeria/ruzzi/russi-16.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/ruzzi/russi-1.jpg",
+        "../images/galeria/ruzzi/russi-2.jpg",
+        "../images/galeria/ruzzi/russi-3.jpg",
+        "../images/galeria/ruzzi/russi-4.jpg",
+        "../images/galeria/ruzzi/russi-5.jpg",
+        "../images/galeria/ruzzi/russi-6.jpg",
+        "../images/galeria/ruzzi/russi-7.jpg",
+        "../images/galeria/ruzzi/russi-8.jpg",
+        "../images/galeria/ruzzi/russi-9.jpg",
+        "../images/galeria/ruzzi/russi-10.jpg",
+        "../images/galeria/ruzzi/russi-11.jpg",
+        "../images/galeria/ruzzi/russi-12.jpg",
+        "../images/galeria/ruzzi/russi-13.jpg",
+        "../images/galeria/ruzzi/russi-14.jpg",
+        "../images/galeria/ruzzi/russi-15.jpg",
+        "../images/galeria/ruzzi/russi-16.jpg"
       ]
     },
     {
@@ -287,16 +379,28 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/surtihogar/img-surtihogar.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/surtihogar/surtihogar-1.jpg",
+        "../images/galeria/surtihogar/surtihogar-2.jpg",
+        "../images/galeria/surtihogar/surtihogar-3.jpg",
+        "../images/galeria/surtihogar/surtihogar-4.jpg",
+        "../images/galeria/surtihogar/surtihogar-5.jpg",
+        "../images/galeria/surtihogar/surtihogar-6.jpg",
+        "../images/galeria/surtihogar/surtihogar-7.jpg",
+        "../images/galeria/surtihogar/surtihogar-8.jpg",
+        "../images/galeria/surtihogar/surtihogar-9.jpg",
+        "../images/galeria/surtihogar/surtihogar-10.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/surtihogar/surtihogar-1.jpg",
+        "../images/galeria/surtihogar/surtihogar-2.jpg",
+        "../images/galeria/surtihogar/surtihogar-3.jpg",
+        "../images/galeria/surtihogar/surtihogar-4.jpg",
+        "../images/galeria/surtihogar/surtihogar-5.jpg",
+        "../images/galeria/surtihogar/surtihogar-6.jpg",
+        "../images/galeria/surtihogar/surtihogar-7.jpg",
+        "../images/galeria/surtihogar/surtihogar-8.jpg",
+        "../images/galeria/surtihogar/surtihogar-9.jpg",
+        "../images/galeria/surtihogar/surtihogar-10.jpg"
       ]
     },
     {
@@ -307,16 +411,16 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/merke-valle/img-merke-valle.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/merke-valle/MerkeValle-1.jpg",
+        "../images/galeria/merke-valle/MerkeValle-2.jpg",
+        "../images/galeria/merke-valle/MerkeValle-3.jpg",
+        "../images/galeria/merke-valle/MerkeValle-4.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/merke-valle/MerkeValle-1-noche.jpg",
+        "../images/galeria/merke-valle/MerkeValle-2-noche.png",
+        "../images/galeria/merke-valle/MerkeValle-3-noche.jpg",
+        "../images/galeria/merke-valle/MerkeValle-4-noche.jpg"
       ]
     },
     {
@@ -327,16 +431,32 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/pedregal/img-pedregal.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/pedregal/pedregal-1.jpg",
+        "../images/galeria/pedregal/pedregal-2.jpg",
+        "../images/galeria/pedregal/pedregal-3.jpg",
+        "../images/galeria/pedregal/pedregal-4.jpg",
+        "../images/galeria/pedregal/pedregal-5.jpg",
+        "../images/galeria/pedregal/pedregal-6.jpg",
+        "../images/galeria/pedregal/pedregal-7.jpg",
+        "../images/galeria/pedregal/pedregal-8.jpg",
+        "../images/galeria/pedregal/pedregal-9.jpg",
+        "../images/galeria/pedregal/pedregal-10.jpg",
+        "../images/galeria/pedregal/pedregal-11.jpg",
+        "../images/galeria/pedregal/pedregal-12.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/pedregal/pedregal-1.jpg",
+        "../images/galeria/pedregal/pedregal-2.jpg",
+        "../images/galeria/pedregal/pedregal-3.jpg",
+        "../images/galeria/pedregal/pedregal-4.jpg",
+        "../images/galeria/pedregal/pedregal-5.jpg",
+        "../images/galeria/pedregal/pedregal-6.jpg",
+        "../images/galeria/pedregal/pedregal-7.jpg",
+        "../images/galeria/pedregal/pedregal-8.jpg",
+        "../images/galeria/pedregal/pedregal-9.jpg",
+        "../images/galeria/pedregal/pedregal-10.jpg",
+        "../images/galeria/pedregal/pedregal-11.jpg",
+        "../images/galeria/pedregal/pedregal-12.jpg"
       ]
     },
     {
@@ -347,16 +467,22 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/supercompras/img-supercompras.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/supercompras/supercompras-1.jpg",
+        "../images/galeria/supercompras/supercompras-2.jpg",
+        "../images/galeria/supercompras/supercompras-3.jpg",
+        "../images/galeria/supercompras/supercompras-4.jpg",
+        "../images/galeria/supercompras/supercompras-5.jpg",
+        "../images/galeria/supercompras/supercompras-6.jpg",
+        "../images/galeria/supercompras/supercompras-7.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/supercompras/supercompras-1.jpg",
+        "../images/galeria/supercompras/supercompras-2.jpg",
+        "../images/galeria/supercompras/supercompras-3.jpg",
+        "../images/galeria/supercompras/supercompras-4.jpg",
+        "../images/galeria/supercompras/supercompras-5.jpg",
+        "../images/galeria/supercompras/supercompras-6.jpg",
+        "../images/galeria/supercompras/supercompras-7.jpg"
       ]
     },
     {
@@ -367,16 +493,14 @@
       "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
       "imgPrincipal": "../images/galeria/surti-todo/img-surti-todo.svg",
       "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
+        "../images/galeria/surti-todo/Surtitodo-1.jpg",
+        "../images/galeria/surti-todo/Surtitodo-3.jpg",
+        "../images/galeria/surti-todo/Surtitodo-5.jpg"
       ],
       "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
+        "../images/galeria/surti-todo/Surtitodo-2.jpg",
+        "../images/galeria/surti-todo/Surtitodo-4.jpg",
+        "../images/galeria/surti-todo/Surtitodo-6.jpg"
       ]
     },
     {

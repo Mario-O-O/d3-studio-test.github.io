@@ -1799,8 +1799,10 @@ section.cierre {
 }
 
 .imgGaleria {
-  width: max-content;
-  height: inherit;
+  /* width: max-content;
+  height: inherit; */
+  width: auto;
+  height: auto;
   max-width: 770px;
 }
 /* END PROYECTOS */
