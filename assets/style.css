@@ -2447,6 +2447,12 @@ div.modal-bgOff .contenido-modal{
   .btn_proyectos {
     margin-top: 10px;
   }
+
+  .ojo {
+    height: 22px;
+    width: 24px;
+    border-radius: 5px;
+}
   /* End proyectos */
 
   /* galeria */
