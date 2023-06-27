@@ -1,6 +1,7 @@
 
 const d = document;
 const w = window;
+const ls = localStorage;
 
 // MENU
 function navMenu(linea, classLi) {
@@ -118,15 +119,24 @@ function darkMode(btn, classDark) {
     const lightMode = function() {
       $body.classList.remove(classDark);
       onOff = false;
+      ls.setItem("theme", "light");
     }
     
     const darkMode = function() {
       $body.classList.add(classDark);
       onOff = true;
+      ls.setItem("theme", "dark");
     }
 
     d.addEventListener("click", function(e) {
       if (e.target.matches(btn) || e.target.matches(`${btn} *`)) { (onOff === false) ? darkMode() : lightMode(); } 
+    });
+
+    d.addEventListener('DOMContentLoaded', (e) =>{
+      // variable de tipo localStorage
+      if (ls.getItem("theme") === null) { ls.setItem("theme", "light") }
+      if (ls.getItem("theme") === "light") { lightMode(); }
+      if (ls.getItem("theme") === "dark") { darkMode(); }
     });
 
     // hora = date.getHours();
@@ -663,7 +673,6 @@ w.addEventListener('load', (e) =>{
     }
 
     navMenu(".linea_menu",".cont_menu ul li a");
-    darkMode('.switchDarkLight', 'darkMode');
     munuHamburguesa();
 
     try {
@@ -675,6 +684,8 @@ w.addEventListener('load', (e) =>{
 
   }, 500);
 });
+
+darkMode('.switchDarkLight', 'darkMode');
 
 w.addEventListener('resize', function(e) { munuHamburguesa(); });
 
