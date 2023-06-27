@@ -161,26 +161,6 @@
     },
     {
       "id": 9,
-      "nombre": "Demi",
-      "value": "demi",
-      "icon": "../images/galeria/demi/ico-demi.svg",
-      "parrafo": "Bushwick Schlitz. Est Shoreditch small batch, dolor Schlitz sapiente twee stumptown ex. Duis Carles pickled, cornhole Thundercats 2",
-      "imgPrincipal": "../images/galeria/demi/img-demi.svg",
-      "galeriaProyect": [
-        "../images/galeria/img-1-1.jpg", 
-        "../images/galeria/img-1-2.jpg", 
-        "../images/galeria/img-1-3.jpg", 
-        "../images/galeria/img-1-4.jpg"
-      ],
-      "galeriaProyectDK": [
-        "../images/galeria/imgDK-1-1.jpg", 
-        "../images/galeria/imgDK-1-2.jpg", 
-        "../images/galeria/imgDK-1-3.jpg", 
-        "../images/galeria/imgDK-1-4.jpg"
-      ]
-    },
-    {
-      "id": 10,
       "nombre": "El Condor",
       "value": "condor",
       "icon": "../images/galeria/condor/ico-condor.svg",
@@ -200,7 +180,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "nombre": "El Maestro",
       "value": "elMaestro",
       "icon": "../images/galeria/el-maestro/ico-el-maestro.svg",
@@ -220,7 +200,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "nombre": "Herjo",
       "value": "herjo",
       "icon": "../images/galeria/herjo/ico-herjo.svg",
@@ -240,7 +220,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "nombre": "La Gran Bodega",
       "value": "granBodega",
       "icon": "../images/galeria/gran-bodega/ico-gran-bodega.svg",
@@ -260,7 +240,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "nombre": "Goggi Pets",
       "value": "goggiPets",
       "icon": "../images/galeria/goggi-pets/ico-goggi-pets.svg",
@@ -280,7 +260,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "nombre": "Ruzzi",
       "value": "ruzzi",
       "icon": "../images/galeria/ruzzi/ico-ruzzi.svg",
@@ -300,7 +280,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "nombre": "Surtihogar",
       "value": "surtihogar",
       "icon": "../images/galeria/surtihogar/ico-surtihogar.svg",
@@ -320,7 +300,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 16,
       "nombre": "Merke Valle",
       "value": "merkeValle",
       "icon": "../images/galeria/merke-valle/ico-merke-valle.svg",
@@ -340,7 +320,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "nombre": "Pedregal",
       "value": "pedregal",
       "icon": "../images/galeria/pedregal/ico-pedregal.svg",
@@ -360,7 +340,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 18,
       "nombre": "Supercompras",
       "value": "supercompras",
       "icon": "../images/galeria/supercompras/ico-supercompras.svg",
@@ -380,7 +360,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 19,
       "nombre": "Surti Todo",
       "value": "surtiTodo",
       "icon": "../images/galeria/surti-todo/ico-surti-todo.svg",
@@ -400,7 +380,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 20,
       "nombre": "the Spabeer",
       "value": "theSpabeer",
       "icon": "../images/galeria/the-spabeer/ico-the-spabeer.svg",
